@@ -24,3 +24,11 @@ sh swap 4G
 The default path for the swap file is /swapfile. If you wish to change this, simple the file location (file must not exist) add it to the command:
 ```
 sh swap 4G /swap
+
+## troubleshoot
+The script will not run if you already have swap. To remove swap use the command below.
+```
+swapoff --all
+```
+After the command, try running the script again.
+
