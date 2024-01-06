@@ -1,6 +1,4 @@
 # swap-script
-All credit to https://github.com/Cretezy/Swap
-I didn't write this script, so don't complain please.
 
 ## Usage
 
@@ -32,4 +30,8 @@ The script will not run if you already have swap. To remove swap use the command
 swapoff --all
 ```
 After the command, try running the script again.
+
+# Credit
+All credit goes to https://github.com/Cretezy/Swap
+the original creator of the swap script
 
